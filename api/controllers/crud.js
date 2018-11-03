@@ -153,9 +153,7 @@ console.log(data.docs);
    db.insert(v,function(err,result){
     if(err){
       throw err;
-      console.log('noooo');
     }else{
-      console.log('yyyy');
     db.find({"selector" : {"_id":jsonobj._id}},function(err,result1){
       if(err){
         console.log('something went wrong...');
